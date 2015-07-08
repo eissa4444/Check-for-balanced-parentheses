@@ -82,6 +82,10 @@
     <None Include="Resources\right-sign-accept-achievement-icon-67197761.jpg" />
     <None Include="Resources\Cross-Sign-1692450.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\right.png" />
+    <Content Include="Resources\wrong.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
