@@ -9,4 +9,6 @@ checking for balanced parantheses is an important task for programming editors
   check whether symbols are balanced or not. 
   
   ![alt tag](https://raw.githubusercontent.com/eissa4444/Check-for-balanced-parentheses-in-c-sharp/master/Check%20for%20balanced%20parentheses%20using%20stack/Resources/right.png)
+  
+  ![alt tag](https://github.com/eissa4444/Check-for-balanced-parentheses-in-c-sharp/blob/master/Check%20for%20balanced%20parentheses%20using%20stack/Resources/wrong.png)
 
