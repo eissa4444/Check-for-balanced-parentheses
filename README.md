@@ -1,4 +1,4 @@
-# Check-for-balanced-parentheses-in-c-sharp
+# Check-for-balanced-parentheses
 a simple application Check for balanced parentheses 
 
 checking for balanced parantheses is an important task for programming editors 
