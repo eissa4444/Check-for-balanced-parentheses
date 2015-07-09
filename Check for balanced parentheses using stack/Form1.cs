@@ -84,15 +84,21 @@ namespace Check_for_balanced_parentheses_using_stack
 
         private void richTextBox1_TextChanged(object sender, EventArgs e)
         {
-            if (CheckBalancedParenthes(richTextBox1.Text))
+            if (richTextBox1.Text == "")
+            {
+                labout.Text = "";
+                wrightpbox.Visible = false;
+                wrongpbox.Visible = false;
+                return;
+            }
+            else if (CheckBalancedParenthes(richTextBox1.Text))
             {
                 labout.Text = "the expression is right";
                 wrightpbox.Visible = true;
                 wrongpbox.Visible = false;
                 labout.ForeColor = Color.Green;
-
             }
-
+             
             else
             {
                 labout.Text = "the parantheses arn't balanced";
